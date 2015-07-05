@@ -20,6 +20,13 @@ class Esperanto < String
 		return false
 	 end
 	end
+	def is_adj?
+	 if self[-1] == "o" || self[-2] == "o"
+		return true
+	 else
+		return false
+	 end
+	end
 end
 
 class String
