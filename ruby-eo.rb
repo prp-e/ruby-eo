@@ -21,7 +21,14 @@ class Esperanto < String
 	 end
 	end
 	def is_adj?
-	 if self[-1] == "o" || self[-2] == "o"
+	 if self[-1] == "a" || self[-2] == "a"
+		return true
+	 else
+		return false
+	 end
+	end
+	def is_adv?
+	 if self[-1] == "e" || self[-2] == "e"
 		return true
 	 else
 		return false
