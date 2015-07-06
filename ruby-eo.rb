@@ -83,6 +83,20 @@ class Esperanto < String
 		return false
 	 end
 	end
+	def is_negative?
+	 if self.is_verb? && self[0] + self[1] == "ne"
+		return true
+	 else
+		return false
+	 end
+	end
+	def is_opposite?
+	 if self[0] + self[1] + self[2] == "mal"
+		return true
+	 else
+		return false
+	 end
+	end
 end
 
 class String
