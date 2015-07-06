@@ -34,11 +34,25 @@ class Esperanto < String
 		return false
 	 end
 	end
-	def is_verb?
+	def is_inf?
 	 if self[-1] == "i"
 	   return true
 	 else
 	   return false
+	 end
+	end
+	def is_past?
+	 if self[-2] + self[-1] == "is"
+	 	return true
+	 else
+		return false
+	 end
+	end
+	def is_present?
+	 if self[-2] + self[-1] == "as"
+		return true
+	 else
+		return false
 	 end
 	end
 end
