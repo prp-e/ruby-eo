@@ -74,6 +74,14 @@ class Esperanto < String
 		return true
 	 else
 		return false
+	 end
+	end
+	def is_verb?
+	 if self.is_inf? || self.is_past? || self.is_present? || self.is_future? || self.is_imp? || self.is_conditional
+		return true
+	 else
+		return false
+	 end
 	end
 end
 
