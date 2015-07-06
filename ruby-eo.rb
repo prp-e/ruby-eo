@@ -97,6 +97,19 @@ class Esperanto < String
 		return false
 	 end
 	end
+	def make_opposite
+	 prefix = "mal"
+	 temp = prefix + self
+	 return temp
+	end
+	def make_female
+	 suffix = "ino"
+	 if self[-1] == "o"
+	 	self[-1] = ''
+	 end
+	 temp = self + suffix
+	 return temp
+ 	end
 end
 
 class String
