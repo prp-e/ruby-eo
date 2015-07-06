@@ -55,6 +55,26 @@ class Esperanto < String
 		return false
 	 end
 	end
+	def is_future?
+	 if self[-2] + self[-1] == "os"
+		return true
+	 else
+		return false
+	 end
+	end
+	def is_imp?
+	 if self[-1] == "u"
+		return true
+	 else
+		return false
+	 end
+	end
+	def is_conditional?
+	 if self[-2] + self[-1] == "us"
+		return true
+	 else
+		return false
+	end
 end
 
 class String
