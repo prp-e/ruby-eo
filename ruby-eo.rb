@@ -103,13 +103,21 @@ class Esperanto < String
 	 return temp
 	end
 	def make_female
-	 suffix = "ino"
-	 if self[-1] == "o"
-	 	self[-1] = ''
+	 if (!self.is_female?)
+		if self.is_noun?
+		 self[-1] = ''
+		 return self + "ino"
+		elsif self.is_adj?
+		 self[-1] = ''	
+		 return self + "ina"
+		else
+		 return "#{self} is not noun or adjective"
+		end
 	 end
-	 temp = self + suffix
-	 return temp
- 	end
+	end
+	def to_s
+	 String.new self
+	end
 end
 
 class String
