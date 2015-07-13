@@ -7,7 +7,7 @@ class Esperanto < String
 	 end
 	end
 	def is_female?
-	 if self[-3] + self[-2] + self[-1] == "ino"
+	 if self[-3] + self[-2] + self[-1] == "ino" || self[-3] + self[-2] + self[-1] == "ina"
 		return true
 	 else
 		return false
