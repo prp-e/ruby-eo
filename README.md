@@ -13,3 +13,5 @@ Just make some ruby source file(s), like ```esperanto.rb``` , copy ```ruby-eo.rb
 ```
  	load 'ruby-eo.rb'
 ```
+
+### Methods
