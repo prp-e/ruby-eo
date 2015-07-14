@@ -79,3 +79,45 @@ it detects that entry is opposite or not.
 ```
 
 returns ```true``` and ``` false ```. Depending on the word.
+
+5. is_verb?
+
+it detects that entry is verb or not.
+
+```
+	word.is_verb?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+#### Verb times and forms
+
+1. is_present?
+
+it detects that entry is present or not.
+
+```
+	word.is_present?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+2. is_past?
+
+it detects that entry is past or not.
+
+```
+	word.is_past?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+3. is_future?
+
+it detects that entry is future or not.
+
+```
+	word.is_future?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
