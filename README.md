@@ -14,4 +14,12 @@ Just make some ruby source file(s), like ```esperanto.rb``` , copy ```ruby-eo.rb
  	load 'ruby-eo.rb'
 ```
 
+Or if you don't like it, you can use ```ruby-eo-mod.rb``` , the "Esperanto" class is written as a module in that one, and that makes using and writing code easier.
+
+You can call it just like this :
+
+```
+	load 'ruby-eo-mod.rb
+```
+
 ### Methods
