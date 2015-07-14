@@ -34,7 +34,18 @@ or, converting a String type value to Esperanto :
 
 ```
 	a = "Amiko".to_eo
-
 ```
 
 ### Methods
+
+Here are list of ```ruby-eo``` 's methods.
+
+1. is_noun?
+
+it detects that entry is a noun or not.
+
+```
+	word.is_noun?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
