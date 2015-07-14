@@ -152,6 +152,16 @@ it detects that entry is infinitive or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
+* is_negative?
+
+it detects that entry is negative or not.
+
+```
+	word.is_negative?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
 #### Continue :
 
 * is_female?
@@ -164,3 +174,42 @@ it detects that entry is female or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
+* make_female
+
+makes entry female.
+
+```
+	word.make_female
+```
+
+* make_opposite 
+
+makes entry opposite.
+
+```
+	word.make_opposite
+```
+
+#### Special methods
+
+PAY ATTENTION : THESE TWO METHODS ARE ONLY FOR ``` ruby-eo.rb ``` FILE. 
+
+* to_eo
+
+makes a ```String``` class ```Esperanto```
+
+```
+	word = "Amiko"
+	word = word.to_eo
+	word.class #returns "Esperanto"
+```
+
+* to_s
+
+makes an ```Esperanto``` class ```String```.
+
+```
+	word = Esperanto.new("Amikino")
+	word = word.to_s
+	word.class #returns "String"
+```
