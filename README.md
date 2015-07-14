@@ -40,7 +40,7 @@ or, converting a String type value to Esperanto :
 
 Here are list of ```ruby-eo``` 's methods.
 
-1. is_noun?
+* is_noun?
 
 it detects that entry is a noun or not.
 
@@ -50,7 +50,7 @@ it detects that entry is a noun or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-2. is_adj?
+* is_adj?
 
 it detects that entry is an adjective or not.
 
@@ -60,7 +60,7 @@ it detects that entry is an adjective or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-3. is_adv?
+* is_adv?
 
 it detects that entry is an adverb or not.
 
@@ -70,7 +70,7 @@ it detects that entry is an adverb or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-4. is_opposite?
+* is_opposite?
 
 it detects that entry is opposite or not.
 
@@ -80,7 +80,7 @@ it detects that entry is opposite or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-5. is_verb?
+* is_verb?
 
 it detects that entry is verb or not.
 
@@ -92,7 +92,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 #### Verb times and forms
 
-1. is_present?
+* is_present?
 
 it detects that entry is present or not.
 
@@ -102,7 +102,7 @@ it detects that entry is present or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-2. is_past?
+* is_past?
 
 it detects that entry is past or not.
 
@@ -112,7 +112,7 @@ it detects that entry is past or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-3. is_future?
+* is_future?
 
 it detects that entry is future or not.
 
@@ -122,7 +122,7 @@ it detects that entry is future or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-4. is_conditional?
+* is_conditional?
 
 it detects that entry is conditional or not.
 
@@ -132,7 +132,7 @@ it detects that entry is conditional or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-5. is_imp?
+* is_imp?
 
 it detects that entry is imperative or not.
 
@@ -142,7 +142,7 @@ it detects that entry is imperative or not.
 
 returns ```true``` and ``` false ```. Depending on the word.
 
-6. is_inf?
+* is_inf?
 
 it detects that entry is infinitive or not.
 
@@ -154,7 +154,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 #### Continue :
 
-6. is_female?
+* is_female?
 
 it detects that entry is female or not.
 
