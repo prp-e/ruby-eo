@@ -121,3 +121,46 @@ it detects that entry is future or not.
 ```
 
 returns ```true``` and ``` false ```. Depending on the word.
+
+4. is_conditional?
+
+it detects that entry is conditional or not.
+
+```
+	word.is_conditional?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+5. is_imp?
+
+it detects that entry is imperative or not.
+
+```
+	word.is_imp?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+6. is_inf?
+
+it detects that entry is infinitive or not.
+
+```
+	word.is_inf?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+#### Continue :
+
+6. is_female?
+
+it detects that entry is female or not.
+
+```
+	word.is_female?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
