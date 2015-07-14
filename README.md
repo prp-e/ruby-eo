@@ -22,4 +22,19 @@ You can call it just like this :
 	load 'ruby-eo-mod.rb
 ```
 
+#### Differences
+
+In ``` ruby-eo.rb ```, it needs to make a new Esperanto type variable like this :
+
+```
+	a = Esperanto.new("Amiko")
+```
+
+or, converting a String type value to Esperanto :
+
+```
+	a = "Amiko".to_eo
+
+```
+
 ### Methods
