@@ -49,3 +49,33 @@ it detects that entry is a noun or not.
 ```
 
 returns ```true``` and ``` false ```. Depending on the word.
+
+2. is_adj?
+
+it detects that entry is an adjective or not.
+
+```
+	word.is_adj?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+3. is_adv?
+
+it detects that entry is an adverb or not.
+
+```
+	word.is_adv?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
+
+4. is_opposite?
+
+it detects that entry is opposite or not.
+
+```
+	word.is_opposite?
+```
+
+returns ```true``` and ``` false ```. Depending on the word.
