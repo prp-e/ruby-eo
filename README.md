@@ -19,7 +19,7 @@ Or if you don't like it, you can use ```ruby-eo-mod.rb``` , the "Esperanto" clas
 You can call it just like this :
 
 ```ruby
-	load 'ruby-eo-mod.rb
+	load 'ruby-eo-mod.rb'
 ```
 
 #### Differences
