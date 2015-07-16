@@ -10,7 +10,7 @@ ruby-eo is an Esperanto word analyzer for Ruby programming language.
 
 Just make some ruby source file(s), like ```esperanto.rb``` , copy ```ruby-eo.rb``` in the directory and add this line to it:
 
-```
+```ruby
  	load 'ruby-eo.rb'
 ```
 
@@ -18,7 +18,7 @@ Or if you don't like it, you can use ```ruby-eo-mod.rb``` , the "Esperanto" clas
 
 You can call it just like this :
 
-```
+```ruby
 	load 'ruby-eo-mod.rb
 ```
 
@@ -26,13 +26,13 @@ You can call it just like this :
 
 In ``` ruby-eo.rb ```, it needs to make a new Esperanto type variable like this :
 
-```
+```ruby
 	a = Esperanto.new("Amiko")
 ```
 
 or, converting a String type value to Esperanto :
 
-```
+```ruby
 	a = "Amiko".to_eo
 ```
 
@@ -44,7 +44,7 @@ Here are list of ```ruby-eo``` 's methods.
 
 it detects that entry is a noun or not.
 
-```
+```ruby
 	word.is_noun?
 ```
 
@@ -54,7 +54,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is an adjective or not.
 
-```
+```ruby
 	word.is_adj?
 ```
 
@@ -64,7 +64,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is an adverb or not.
 
-```
+```ruby
 	word.is_adv?
 ```
 
@@ -74,7 +74,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is opposite or not.
 
-```
+```ruby
 	word.is_opposite?
 ```
 
@@ -84,7 +84,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is verb or not.
 
-```
+```ruby
 	word.is_verb?
 ```
 
@@ -96,7 +96,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is present or not.
 
-```
+```ruby
 	word.is_present?
 ```
 
@@ -106,7 +106,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is past or not.
 
-```
+```ruby
 	word.is_past?
 ```
 
@@ -116,7 +116,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is future or not.
 
-```
+```ruby
 	word.is_future?
 ```
 
@@ -126,7 +126,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is conditional or not.
 
-```
+```ruby
 	word.is_conditional?
 ```
 
@@ -136,7 +136,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is imperative or not.
 
-```
+```ruby
 	word.is_imp?
 ```
 
@@ -146,7 +146,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is infinitive or not.
 
-```
+```ruby
 	word.is_inf?
 ```
 
@@ -156,7 +156,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is negative or not.
 
-```
+```ruby
 	word.is_negative?
 ```
 
@@ -168,7 +168,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 it detects that entry is female or not.
 
-```
+```ruby
 	word.is_female?
 ```
 
@@ -178,7 +178,7 @@ returns ```true``` and ``` false ```. Depending on the word.
 
 makes entry female.
 
-```
+```ruby
 	word.make_female
 ```
 
@@ -186,7 +186,7 @@ makes entry female.
 
 makes entry opposite.
 
-```
+```ruby
 	word.make_opposite
 ```
 
@@ -198,7 +198,7 @@ PAY ATTENTION : THESE TWO METHODS ARE ONLY FOR ``` ruby-eo.rb ``` FILE.
 
 makes a ```String``` class ```Esperanto```
 
-```
+```ruby
 	word = "Amiko"
 	word = word.to_eo
 	word.class #returns "Esperanto"
@@ -208,7 +208,7 @@ makes a ```String``` class ```Esperanto```
 
 makes an ```Esperanto``` class ```String```.
 
-```
+```ruby
 	word = Esperanto.new("Amikino")
 	word = word.to_s
 	word.class #returns "String"
